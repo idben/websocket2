@@ -1,0 +1,11 @@
+.myself{
+  position: relative;
+}
+.myself::after{
+  content: "<=自己";
+  position: relative;
+  margin-left: 10px;
+  background-color: #f07b06;
+  color: #fff;
+  border-radius: 5px;
+}
